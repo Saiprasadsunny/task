@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <title>Task</title>
+    <style>
+        .topbar{
+            width: 100%;
+            height: 200px;
+            background-image: linear-gradient(to bottom right, #2DE5A8 40%, blue);
+            display: flex; 
+            justify-content: space-between;
+            border-bottom: black solid 9px;
+            border-left: black solid 2px;
+        }
+        .topbar .image1{
+            height: 70px;
+            width: 130px;
+        
+        }
+        .middle{
+            background-color:aliceblue;
+            border-left: black solid 2px;
+            height: 500px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .text{
+            font-weight: 600;
+            margin-top: 100px;
+            background-color: white;
+            height:100px;
+            color: aqua;
+            font-size: 50px;
+            
+        }
+        #par{
+            margin-left: 50px;
+            width: 140px;
+            height: 30px;
+            background: aqua;
+           -webkit-transform: skew(-30deg);
+           -moz-transform: skew(-30deg);
+           -o-transform: skew(-30deg);
+           transform: skew(-30deg);
+        }
+        @media screen (min-width: 320px) {
+  .topbar .image1{
+    width: 50%;
+      
+  }
+            
+}
+    </style>
+    </head>
+<body>
+    <div class="topbar">
+        <img  class="image1 imageresponsive" src="google.png" style="margin-left: 100px;margin-top: 50px">
+        <img  class="image1" src="apple.png" style="margin-right: 90px;margin-top: 50px">
+    </div>
+    <div class="middle">
+        <div class="text" style="height: 250px;width: 50%">
+            <div id="par"></div>
+        <p style="margin-top: 50px">Almost there! We just need your info.</p>
+        </div>
+    </div>
+    
+    </body></html>
